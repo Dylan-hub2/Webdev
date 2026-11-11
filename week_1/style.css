@@ -1,10 +1,15 @@
-#images {
+#content {
     display: flex;
-    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
 }
 
-#ziekten1 {
-    background-color: #a3b88a77;
-    height: 115px;
-    width: 185px;
+#tekst {
+    flex: 1;
+}
+
+#images {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 10px;
 }
