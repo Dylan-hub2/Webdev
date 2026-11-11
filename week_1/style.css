@@ -2,3 +2,9 @@
     display: flex;
     flex-direction: row;
 }
+
+#ziekten1 {
+    Background-color: #8cff00;
+    height: 200px;
+    flex-direction: column;
+}
