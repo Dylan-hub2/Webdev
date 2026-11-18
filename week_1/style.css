@@ -4,27 +4,79 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
 }
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
 #content {
     display: flex;
-    align-items: flex-start;
-    gap: 40px;
+    flex-direction: column;
+    gap: 30px;
 }
 
-#tekst {
-    flex: 1;
+.producten {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 12px;
 }
 
-#images {
-    display: grid;
-    grid-template-columns: repeat(2, 300px);
+.producten h3 {
+    color: rgb(85, 255, 0);
+}
+
+.producten a {
+    text-decoration: none;
+    color: white;
+}
+
+.producten a:hover {
+    color: #ffd166;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     gap: 10px;
 }
 
+.image img {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.naam {
+    color: white;
+    text-align: center;
+   text-decoration: none;
+}
+
+.prijs {
+    color: white;
+    text-decoration: none;
+}
+
+.informatie {
+    color: white;
+    text-decoration: none;
+}
 a {
-    color: #bcdf1080;
+    text-decoration: none;
+    color: white;
 }
 
 a:hover {
-    color: #042a03;
+    color: #ffd166;
+    text-shadow: 0 0 5px #ffd166;
+}
+.image img {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
