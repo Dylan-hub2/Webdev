@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <header>
-    <a href="index.html">
+    <a href="index.php">
         <img src="Images/logo.png" width="75" height="75" alt="Logo">
     </a>
     <h1> Tuberculose: €25</h1>
@@ -29,8 +29,8 @@
     <ul>
         <div class="informatie">
          <ul>
-        <li><a href="index.html">Terug naar de hoofdpagina</a></li>
-        <li><a href="bestellentuberculose.html">Bestellen</a></li>
+        <li><a href="index.php">Terug naar de hoofdpagina</a></li>
+        <li><a href="bestellentuberculose.php">Bestellen</a></li>
     </ul>
 </div>
 </body>

@@ -11,7 +11,7 @@
 <body>
     <!-- titel -->
     <header>
-        <a href="index.html">
+        <a href="index.php">
             <img src="Images/Logo.png" alt="Logo" width="75" height="75">
         </a>
         <h1>ZiektenSpot</h1>
@@ -20,32 +20,32 @@
     <div id="content">
         <!-- producten -->
         <div class="image">
-            <a href="tuberculose.html">
+            <a href="tuberculose.php">
                 <img src="Images/tuberculose.jpeg" alt="Tuberculose" width="300" height="200">
                 <span class="naam">Tuberculose</span>
                 <span class="prijs">€10</span>
             </a>
-            <a href="kanker.html">
+            <a href="kanker.php">
                 <img src="Images/Kanker.jpeg" alt="Kanker" width="300" height="200">
                 <span class="naam">Kanker</span>
                 <span class="prijs">€20</span>
             </a>
-            <a href="cholera.html">
+            <a href="cholera.php">
                 <img src="Images/Cholera.jpeg" alt="Cholera" width="300" height="200">
                 <span class="naam">Cholera</span>
                 <span class="prijs">€15</span>
             </a>
-            <a href="tetanus.html">
+            <a href="tetanus.php">
                 <img src="Images/tetanus.jpeg" alt="Tetanus" width="300" height="200">
                 <span class="naam">Tetanus</span>
                 <span class="prijs">€12</span>
             </a>
-            <a href="diabetes2.html">
+            <a href="diabetes2.php">
                 <img src="Images/Diabetes.jpeg" alt="Diabetes type 2" width="300" height="200">
                 <span class="naam">Diabetes type 2</span>
                 <span class="prijs">€22</span>
             </a>
-            <a href="covid.html">
+            <a href="covid.php">
                 <img src="Images/covid.png" alt="Covid-19" width="300" height="200">
                 <span class="naam">Covid-19</span>
                 <span class="prijs">€30</span>

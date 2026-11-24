@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <header>
-    <a href="index.html">
+    <a href="index.php">
         <img src="Images/logo.png" width="75" height="75" alt="Logo">
     </a>
     <h1> Cholera: €15</h1>
@@ -29,8 +29,8 @@
     </div>
     <div class="informatie">
          <ul>
-        <li><a href="index.html">Terug naar de hoofdpagina</a></li>
-        <li><a href="bestellencholera.html">Bestellen</a></li>
+        <li><a href="index.php">Terug naar de hoofdpagina</a></li>
+        <li><a href="bestellencholera.php">Bestellen</a></li>
     </ul>
     </div>
 
